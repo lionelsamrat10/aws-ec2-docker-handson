@@ -1,7 +1,7 @@
 after created ec2instance.steps to docker-compose your application
 1.go to the instance and click connect to open terminal in web
 	1.1 else you can go to the downloads in system terminal and execute  this but replace pem file name and aws public atress after ec2-user@.
-	ssh -i INTCDE008-901393.pem ec2-user@ec2-18-116-199-10.us-east-2.compute.amazonaws.com
+	ssh -i INTCDE008-samrat.pem ec2-user@ec2-18-116-199-10.us-east-2.compute.amazonaws.com
 
 2.it will connect to your ec2.then sudo yum install (your java version-go through the git of sir's)
 3.then check the version of java.then install git.(sudo yum install git).
